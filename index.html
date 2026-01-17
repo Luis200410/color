@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="color-container"></div>
+    <div class="color-container">
+        <form id="form"> 
+            <input type="color" class="color-picker" id="seed-color" />
+            <select class="scheme-selector">
+            </select>
+            <button type="submit">Get Color Scheme</button> 
+        </form>
+        <main class="color-scheme">
+        </main>
+    </div>
+    
+    <script src="index.js"></script>
 </body>
 </html>
