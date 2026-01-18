@@ -33,5 +33,4 @@ fetch(`https://www.thecolorapi.com/scheme?hex=${seedColor}&mode=${schemeMode}`)
             })
         })
     })   
-
 }) 
