@@ -55,6 +55,9 @@ body{
     background-color: white;
     margin: 0;
     height: 46px;
+    background-color: white;
+    width: 100%;
+    border: none;
 }
 
 .color-box{
@@ -69,6 +72,9 @@ body{
     height: 90%;
     
 }
+
+
+
 
 
 
